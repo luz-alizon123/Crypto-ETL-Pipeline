@@ -8,15 +8,15 @@ import requests.exceptions
 
 # --- IMPORTS Y CONFIGURACIÓN DE AIRFLOW ---
 
-# La librería Airflow no es necesaria si solo usamos los decoradores:
-# from airflow.operators.python import PythonOperator
-# from airflow.models.dag import DAG
+# La librería Airflow no es necesaria si solo se usa los decoradores:
+from airflow.operators.python import PythonOperator
+from airflow.models.dag import DAG
 
 # --- LIBRERÍAS DE CALIDAD ---
-# from ydata_profiling import ProfileReport
+from ydata_profiling import ProfileReport 
 
 # --- VARIABLES GLOBALES Y RUTAS DE ARCHIVO ---
-# NOTA: Usaremos /tmp/ para los archivos intermedios, que es seguro para Airflow
+# NOTA: Se usa /tmp/ para los archivos intermedios, que es seguro para Airflow
 TEMP_DIR = "/tmp/"
 
 # Ruta del archivo original: debe apuntar a la carpeta 'include' del proyecto.
@@ -390,3 +390,4 @@ def crypto_classification_dag():
 
 # Instanciar el DAG
 crypto_classification_pipeline = crypto_classification_dag()
+
