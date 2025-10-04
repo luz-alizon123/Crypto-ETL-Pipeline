@@ -280,15 +280,12 @@ btcusd_df.head()
 """Almacenamiento de datos"""
 
 # Guardado del DataFrame de la API en un archivo CSV
-df.to_csv('/content/api_cryptocurrency_data.csv', index=False)
-
-print("Datos de la API guardados como: 'api_cryptocurrency_data.csv'")
+df.to_csv('/content/api_cryptocurrency_data_final.csv', index=False)
+print("Datos de la API guardados como: 'api_cryptocurrency_data_final.csv'")
 
 # Guardado del DataFrame de Kaggle en un archivo CSV (historico)
-
-btcusd_df.to_csv('/content/cleaned_cryptocurrency_data.csv', index=False)
-
-print("Datos historicos posterior a la limpieza guardados como: 'cleaned_cryptocurrency_data.csv'")
+btcusd_df.to_csv('/content/cleaned_cryptocurrency_data_final.csv', index=False)
+print("Datos historicos posterior a la limpieza guardados como: 'cleaned_cryptocurrency_data_final.csv'")
 
 """Reporte de calidad con ProfileReport"""
 
