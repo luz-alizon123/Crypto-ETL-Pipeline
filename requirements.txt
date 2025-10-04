@@ -1,0 +1,4 @@
+# Contenido FINAL y MINIMALISTA de requirements.txt
+pandas
+requests
+apache-airflow-providers-sqlite

@@ -1,0 +1,37 @@
+# DICCIONARIO DE DATOS - CRYPTOCURRENCY DATASET
+# Última actualización: [Octubre 3, 2025]
+# Versión: 1.0
+
+## DATASET HISTÓRICO (CryptocurrencyData.csv)
+* 1️⃣rank: Posición ranking por capitalización de mercado, donde 1 representa la criptomoneda con mayor market cap
+* 💲coin_name: Nombre comercial completo de la criptomoneda según su proyecto oficial
+* 🔑symbol: TSímbolo ticker utilizado en exchanges para identificar la criptomoneda
+* 💵current_price: Precio de mercado actual expresado en dólares americanos (USD) con formato monetario
+* 📊1h: Cambio porcentual del precio en las últimas 1 hora, indicador de volatilidad a corto plazo
+* 📊24h: Cambio porcentual del precio en las últimas 24 horas, métrica clave para tendencias diarias
+* 📊7d: Cambio porcentual del precio en los últimos 7 días, indicador de tendencia semanal
+* 📊30d: Cambio porcentual del precio en los últimos 30 días, perspectiva de tendencia mensual
+* 📊24h_volume: Volumen total de trading en dólares durante las últimas 24 horas, indicador de liquidez
+* 📈circulating_supply: Cantidad de monedas actualmente en circulación y disponibles en el mercado
+* 💱total_supply: Suministro máximo total que existirá para la criptomoneda, incluye no circulante
+* 💰market_cap: Capitalización de mercado calculada como Precio × Circulating Supply
+
+## DATASET FINAL CLASIFICADO
+* 🎯is_outlier: Para clasificar a los datos que tienen un precio atipico, con el fin de no eliminarlo, dado el entorno de volatilidad que tiene este sector
+
+
+# DICCIONARIO DE DATOS - CoinGecko
+# Última actualización: [Octubre 3, 2025]
+# Versión: 1.0
+
+## DATASET API (CoinGecko)
+* 🔑symbol: Identificador único en minúsculas según estándar CoinGecko
+* 📊current_price: Precio actual en USD con precisión decimal, actualizado en tiempo real
+* 🎯price_change_percentage_24h: Variación porcentual del precio en las últimas 24 horas exactas
+* 💰market_cap: Capitalización de mercado en USD, calculada en tiempo real
+* 📈total_volume: Volumen total de trading en USD durante últimas 24 horas
+* 📊high_24h: Precio máximo alcanzado durante las últimas 24 horas de trading
+* 📊low_24h: Precio mínimo alcanzado durante las últimas 24 horas de trading
+
+## DATASET FINAL CLASIFICADO
+* 🎯trend_classification: Categorización de tendencia según algoritmo personalizado agregado una ves realizado la limpieza (FUERTE ALCISTA, MODERADA ALCISTA, ESTABLE, MODERADA BAJISTA, FUERTE BAJISTA)
