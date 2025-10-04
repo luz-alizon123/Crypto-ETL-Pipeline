@@ -10,13 +10,13 @@ Original file is located at
 **COINGECKO💱**
 
 **Diccionario de datos**
-* **🔑symbol:** Identificador único en minúsculas según estándar CoinGecko
-* **📊current_price:** Precio actual en USD con precisión decimal, actualizado en tiempo real
-* **🎯price_change_percentage_24h:** Variación porcentual del precio en las últimas 24 horas exactas
-* **💰market_cap:** Capitalización de mercado en USD, calculada en tiempo real
-* **📈total_volume:** Volumen total de trading en USD durante últimas 24 horas
-* **📊high_24h:** Precio máximo alcanzado durante las últimas 24 horas de trading
-* **📊low_24h:** Precio mínimo alcanzado durante las últimas 24 horas de trading
+* **🔑symbol:** Identificador único en minúsculas según estándar CoinGecko.
+* **📊current_price:** Precio actual en USD con precisión decimal, actualizado en tiempo real.
+* **🎯price_change_percentage_24h:** Variación porcentual del precio en las últimas 24 horas exactas.
+* **💰market_cap:** Capitalización de mercado en USD, calculada en tiempo real.
+* **📈total_volume:** Volumen total de trading en USD durante últimas 24 horas.
+* **📊high_24h:** Precio máximo alcanzado durante las últimas 24 horas de trading.
+* **📊low_24h:** Precio mínimo alcanzado durante las últimas 24 horas de trading.
 * **🎯trend_classification:** Categorización de tendencia según algoritmo personalizado agregado una ves realizado la limpieza.
 """
 
