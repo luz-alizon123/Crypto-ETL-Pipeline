@@ -102,7 +102,7 @@ Pipeline ETL automatizado para análisis de tendencias en criptomonedas, que com
 - Logs: Airflow UI → Browse Logs
 
 
-## ☎️ Contacto
+## 👤 Integrantes
 - Ronald Chipana Wariste
 - Luz Alizon Mamani Mena
 - Roni Edwin Oyardo Acuña
